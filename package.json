@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "su-u <su-.dev@unitech.jp>",
   "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  },
   "devDependencies": {
     "@babel/preset-typescript": "^7.12.7",
     "@types/aws-lambda": "^8.10.70",
